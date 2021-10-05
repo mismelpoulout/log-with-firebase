@@ -7,9 +7,13 @@ const Home = () => {
   };
 
   return (
-    <div>
-      <h1>Bienvenido, sesión iniciada, wapetón.</h1>
-      <button onClick={cerrarSesion}>Cerrar Sesión</button>
+    <div className="container">
+      <br /><br /><br />
+      <div className="text-center">
+       <h1 className="form-floating">Bienvenido, sesión iniciada, wapetón.</h1>
+       <br /><br />
+      <button className="w-100 btn btn-lg btn-secondary" onClick={cerrarSesion}>Cerrar Sesión</button>
+      </div>
     </div>
   );
 };
