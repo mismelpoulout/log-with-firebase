@@ -1,0 +1,11 @@
+- para crear la carpeta build
+npm run build
+
+- para inicializar firebase
+firebase init
+-para desplegar proyecto en firebase
+firebase deploy
+
+
+
+
